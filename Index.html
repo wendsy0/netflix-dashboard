@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visualisasi Genre Film Netflix</title>
+  <link rel="stylesheet" href="Style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+  <nav>
+    <div class="logo">
+      <i class="fa-solid fa-film"></i>
+      Netflix Dashboard
+    </div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#dashboard">Dashboard</a></li>
+      <li><a href="#platform">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- HOME SECTION -->
+  <section id="home">
+    <div class="hero-text">
+      <h1>Visualisasi Genre Film Netflix</h1>
+      <h2>Periode 2023–2025</h2>
+      <p>
+        Website ini menyajikan dashboard interaktif mengenai analisis genre film Netflix
+        berdasarkan Hours Viewed dan IMDb Rating menggunakan Python dan Streamlit.
+      </p>
+      <a href="#dashboard">
+        <button>Lihat Dashboard</button>
+      </a>
+    </div>
+  </section>
+
+  <!-- DASHBOARD SECTION -->
+  <section id="dashboard">
+    <h2>Dashboard Visualisasi</h2>
+    <p>
+      Gunakan filter <strong>Tahun</strong> dan <strong>Genre</strong> di dalam dashboard
+      untuk melakukan analisis data secara interaktif.
+    </p>
+    <div class="dashboard-box">
+      <!--
+        GANTI src="" DI BAWAH INI dengan link Streamlit Cloud kamu
+        Contoh: src="https://namaapp-xxxxx.streamlit.app/?embed=true"
+        Parameter ?embed=true menyembunyikan header Streamlit agar tampil rapi
+      -->
+      <iframe
+        id="streamlit-frame"
+        title="Netflix Dashboard"
+        src="https://GANTI-DENGAN-LINK-STREAMLIT-KAMU.streamlit.app/?embed=true"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="platform">
+    <h2>About</h2>
+    <div class="cards">
+
+      <div class="card">
+        <i class="fa-brands fa-instagram"></i>
+        <h3>Instagram</h3>
+        <p>Follow untuk update terbaru</p>
+        <a href="https://www.instagram.com/vallstaryight_/" target="_blank">
+          @vallstaryight_
+        </a>
+      </div>
+
+      <div class="card">
+        <i class="fa-brands fa-facebook"></i>
+        <h3>Facebook</h3>
+        <p>Terhubung di Facebook</p>
+        <a href="https://web.facebook.com/noval.rifqiansyah.568/" target="_blank">
+          Noval Rifqiansyah
+        </a>
+      </div>
+
+      <div class="card">
+        <i class="fa-brands fa-tiktok"></i>
+        <h3>TikTok</h3>
+        <p>Konten seru di TikTok</p>
+        <a href="https://www.tiktok.com/@kimiyumii_?lang=en-GB" target="_blank">
+          @kimiyumii_
+        </a>
+      </div>
+
+      <div class="card">
+        <i class="fa-brands fa-github"></i>
+        <h3>GitHub</h3>
+        <p>Source code proyek ini</p>
+        <a href="https://github.com/wendsy0" target="_blank">
+          github.com/wendsy0
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Noval Rifqiansyah</p>
+  </footer>
+
+  <script src="Script.js"></script>
+
+</body>
+</html>
